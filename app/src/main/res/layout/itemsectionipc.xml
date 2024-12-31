@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="#FFDADA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Add an ImageView for the bookmark drawable -->
+        <ImageView
+            android:id="@+id/bookmarkImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bookmarkicon"
+            android:layout_gravity="end"/>
+
+        <TextView
+            android:id="@+id/sectionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#FFDADA"
+            android:textSize="16sp"
+            android:padding="4dp"
+            android:background="@color/theme"/>
+
+        <TextView
+            android:id="@+id/chapterTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#293040"
+            android:textSize="16sp"
+            android:paddingTop="8dp"
+            android:padding="4dp"
+            android:background="@color/design_default_color_on_primary"/>
+
+        <TextView
+            android:id="@+id/chapterTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#293040"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:padding="4dp"
+            android:background="@color/cardview_shadow_end_color"/>
+
+        <TextView
+            android:id="@+id/sectionDescTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#293040"
+            android:padding="4dp"
+            android:background="#5F6B74"/>
+
+        <TextView
+            android:id="@+id/sectionTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#FFDADA"
+            android:paddingTop="8dp"
+            android:padding="4dp"
+            android:background="@color/my_primary"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

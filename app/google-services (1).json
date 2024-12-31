@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "775372455619",
+    "firebase_url": "https://lawlens01-default-rtdb.asia-southeast1.firebasedatabase.app/",
+
+    "project_id": "lawlens01",
+    "storage_bucket": "lawlens01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775372455619:android:eb0b438d2524f0ee40ac76",
+        "android_client_info": {
+          "package_name": "com.law.lawlens09"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0LqzlRG-eQlNemdimUe897BZdWcoDLo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
